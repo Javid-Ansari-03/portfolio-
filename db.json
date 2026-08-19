@@ -1,0 +1,131 @@
+{
+  "artical": [
+    {
+      "id": "1",
+      "title": "مقاله اول",
+      "discribtion": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "image": "https://dl.next1code.ir/images/react/article1.webp",
+      "readingTime": 5,
+      "catagory": "هوش مصنوعی",
+      "writer": "محمد جاوید انصاری"
+    },
+    {
+      "id": "2",
+      "title": "مقاله دوم",
+      "discribtion": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "image": "https://dl.next1code.ir/images/react/article2.webp",
+      "readingTime": 5,
+      "catagory": "هوش مصنوعی",
+      "writer": "محمد جاوید "
+    },
+    {
+      "id": "3",
+      "title": "مقاله سوم",
+      "discribtion": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "image": "https://dl.next1code.ir/images/react/article3.webp",
+      "readingTime": 5,
+      "catagory": "هوش مصنوعی",
+      "writer": "محمد  "
+    },
+    {
+      "id": "4",
+      "title": "مقاله چهارم",
+      "discribtion": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "image": "https://dl.next1code.ir/images/react/article4.webp",
+      "readingTime": 10,
+      "catagory": " جاوا اسکریپت",
+      "writer": "محمد جاوید انصاری"
+    },
+    {
+      "id": "5",
+      "title": "مقاله پنجم",
+      "discribtion": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "image": "https://dl.next1code.ir/images/react/article5.webp",
+      "readingTime": 5,
+      "catagory": "هوش بروز",
+      "writer": " جاوید "
+    },
+    {
+      "id": "6",
+      "title": "مقاله ششم",
+      "discribtion": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "image": "https://dl.next1code.ir/images/react/article6.webp",
+      "readingTime": 6,
+      "catagory": " مصنوعی",
+      "writer": " جاوید "
+    },
+    {
+      "id": "7",
+      "title": "مقاله هفتم",
+      "discribtion": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "image": "https://dl.next1code.ir/images/react/article7.webp",
+      "readingTime": 5,
+      "catagory": "تفکر مصنوعی",
+      "writer": " جاوید انصاری"
+    },
+    {
+      "id": "8",
+      "title": "مقاله هشتم",
+      "discribtion": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "image": "https://dl.next1code.ir/images/react/article8.webp",
+      "readingTime": 5,
+      "catagory": "هوش مصنوعی",
+      "writer": "محمد جاوید انصاری"
+    },
+    {
+      "id": "zQPym1M_dwk",
+      "title": "مقاله هشتم",
+      "discribtion": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "image": "https://dl.next1code.ir/images/react/article8.webp",
+      "readingTime": 5,
+      "catagory": "هوش مصنوعی",
+      "writer": "محمد جاوید انصاری"
+    },
+    {
+      "id": "26hyKgmfM3Y",
+      "title": "مقاله هشتم",
+      "discribtion": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "image": "https://dl.next1code.ir/images/react/article8.webp",
+      "readingTime": 5,
+      "catagory": "هوش مصنوعی",
+      "writer": "محمد جاوید انصاری"
+    },
+    {
+      "id": "0aRPjgjMPC8",
+      "title": "مقاله نهم",
+      "discribtion": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "image": "https://dl.next1code.ir/images/react/article8.webp",
+      "readingTime": 5,
+      "catagory": "هوش مصنوعی",
+      "writer": "محمد جاوید انصاری"
+    },
+    {
+      "id": "aHTjXv9Jhao",
+      "title": "java",
+      "discribtion": "it is so good materials  for all studend",
+      "image": "https://dl.next1code.ir/images/react/article8.webp",
+      "readingTime": "AI",
+      "catagory": "هوش مصنوعی",
+      "writer": "javid"
+    },
+    {
+      "id": "Ie1VPEKWrx4",
+      "title": "دری",
+      "discribtion": "این یکی از اساسی ترین از موضووعات این فصل می باشد",
+      "image": "https://dl.next1code.ir/images/react/article8.webp",
+      "readingTime": "روح سالم",
+      "catagory": "هوش مصنوعی",
+      "writer": "حامد انصارس"
+    },
+    {
+      "id": "uIgpAGpXyMQ",
+      "title": "زن در اسلام",
+      "discribtion": "مهم برای همه توسعه می شود",
+      "image": "https://dl.next1code.ir/images/react/article8.webp",
+      "readingTime": "11",
+      "catagory": "هوش مصنوعی",
+      "writer": "فایزه"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
