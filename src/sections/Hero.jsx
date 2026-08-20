@@ -14,7 +14,7 @@ const skills=[
     "Node.js",
     "React",
     "Gite",
-    "Gitehub action",];
+    "Github action",];
 
 
 export const Hero=()=>{
@@ -47,7 +47,7 @@ export const Hero=()=>{
                     <div className='animate-fade-in'>
                         <span className='inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary'>
                             <span className='w-2 h-2 bg-primary rounded-full animate-puls'/>
-                                Software Engineer * React Spacialist
+                                Software Engineer * React Specialist
                             
                         </span>
                     </div>
@@ -60,7 +60,7 @@ export const Hero=()=>{
                             </span>
                         </h1>
                         <p className='text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200'>
-                            Hi! I'm Mohammad Javid Ansari -- a Software engineer. I build scalable, performant web aplication that user love.
+                            Hi! I'm Mohammad Javid Ansari -- a Software engineer. I build scalable, performant web application that user love.
                         </p>
                     </div>
                     {/*CTA s */}
@@ -73,7 +73,7 @@ export const Hero=()=>{
                     </div>
                     {/*social links */}
                     <div>
-                        <span>Fllow Me :</span>
+                        <span>Follow Me :</span>
                         <div className='flex gap-2.5 pt-5'>
                         {[{icon:FaGithub,href:"https://github.com/Javid-Ansari-03"},
                          {icon:FaLinkedin ,href:"https://www.linkedin.com/safety/go/?url=http%3A%2F%2FJobportal%2Eaf&urlhash=L7w7&mt=JVQAe5cLSoA-HfGPgdiNcKe964d5zWUyaR8yXLWbc4MpuA0QNH1PTEm16O-uFd1Ws_Ei4xOccLSI63J7quoYqfQB4VoB&isSdui=true"},

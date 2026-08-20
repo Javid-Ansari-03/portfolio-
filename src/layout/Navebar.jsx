@@ -6,7 +6,7 @@ const naveLinks=[
     {href:"#about",lable:"About"},
     {href:"#project",lable:"Project"},
     {href:"#experiences",lable:"Experiences"},
-    {href:"#testimonils",lable:"Testimonils"},
+    {href:"#testimonils",lable:"Testimonials"},
     
 ]
 export const Navebar =()=>{

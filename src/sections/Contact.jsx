@@ -53,7 +53,7 @@ export const Contact=()=>{
                     (error)=>{
                         setStatcolor(false);
                         console.log("FAILD...",error);
-                        setStatus("Failed to send message check your conection !");
+                        setStatus("Failed to send message check your connection !");
                     }
             )
     }
@@ -71,7 +71,7 @@ export const Contact=()=>{
                 <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-secondary-foreground animate-fade-in animation-daley-100">
                     Let's build{" "}<span className="font-serif italic font-normal text-white">something great.</span>
                </h2>
-                 <p className="text-muted-foreground animate-fade-in animation-daley-200">Have a project in maind? I'd love to hear about it. Send me massege and let's discusse how we work togather</p>
+                 <p className="text-muted-foreground animate-fade-in animation-daley-200">Have a project in mind? I'd love to hear about it. Send me message and let's discuss how we work together</p>
 
             </div>
             <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
@@ -86,11 +86,11 @@ export const Contact=()=>{
                             <input name="email" required type="email" id="emial" className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-0 transition-all" required placeholder="Your@gmail.com" value={formData.email} onChange={(e)=> setFormData({...formData,email:e.target.value})}/>
                         </div>
                         <div>
-                            <label htmlFor="message" className="block tex-t-sm font-medium mb-2">Massege</label>
+                            <label htmlFor="message" className="block tex-t-sm font-medium mb-2">Message</label>
                             <textarea name="message" required type="text" id="massege" className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-0 transition-all" required placeholder="Your Massege...." rows={5} value={formData.massege} onChange={(e)=> setFormData({...formData,massege:e.target.value})}/>
                         </div>
                         <Button className="w-full" size="lg" type="submit">
-                            Send Massege
+                            Send Message
                             <Send/>
                         </Button>
                         {status && <p className={`text-center font-semibold text-primary ${statecolor ? "" : "text-red-500"}`}>{status}</p>}
@@ -125,12 +125,12 @@ export const Contact=()=>{
                     <div className="glass rounded-3xl p-8 border border-primary/30">
                             <div className="flex items-center gap-3 mb-4">
                                 <span className="size-3 bg-green-500 rounded-full animate-pulse"/>
-                                <span className="font-medium">Curently Available</span>
+                                <span className="font-medium">Currently Available</span>
                             </div>
                             <p className="text-muted-foreground text-sm">
-                                I'm currently open to new opporunities and exciting project.
-                                Whehter you need a full-time engineer or a freelance consultant,
-                                let's latk!
+                                I'm currently open to new opportunities and exciting project.
+                                Whether you need a full-time engineer or a freelance consultant,
+                                let's talk!
 
                             </p>
                     </div>

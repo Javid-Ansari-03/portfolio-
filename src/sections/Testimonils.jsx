@@ -6,7 +6,7 @@ import asghar from '../assets/images/asghar.jpg'
 
 const testimonils=[
     {
-        quote:"M javid ansari is programmer and a good devloper at that much I know hem",
+        quote:"M javid ansari is programmer and a good developer at that much I know hem",
         aouthor:"Milad",
         roale:"PRT_TECh, manager",
          avatar:milad,
@@ -14,7 +14,7 @@ const testimonils=[
       {
         quote:"M javid Ansari is a good and same time serious manager since I work with him",
         aouthor:"Aziz",
-        roale:"Growth_Today team, frontent developer",
+        roale:"Growth_Today team, frontend developer",
         avatar:aziz
     },
       {

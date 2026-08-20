@@ -26,7 +26,7 @@ export const Footer= ()=>{
     {href:"#about",lable:"About"},
     {href:"#project",lable:"Project"},
     {href:"#ecperiences",lable:"Experiences"},
-    {href:"#testimonils",lable:"Testimonils"},
+    {href:"#testimonils",lable:"Testimonials"},
     
 ]
     return(

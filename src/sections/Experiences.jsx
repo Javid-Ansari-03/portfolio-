@@ -13,15 +13,15 @@ const experiences=[
         period:"2025-2025",
         role:"web developer",
         company:"Growth_Today",
-        description:"it wasa proect abot a mount with the Growth_Today team ",
+        description:"it was a project about a mount with the Growth_Today team ",
         technologies:["react","node.js","mysql"],
         current:false
 
     }, {
         period:"2025-2026",
         role:"Frontend Developer",
-        company:"Grouth_Today",
-        description:"it is a proect about a company for saling and ranting homes",
+        company:"Growth_Today",
+        description:"it is a project about a company for selling and ranting homes",
         technologies:["react"],
         current:true
 
@@ -47,11 +47,11 @@ export const Experiences=()=>{
         <div className="container mx-auto px-6 relative z-10">
             {/*section header */}
             <div className="max-w-3xl mb-16 mx-auto text-center">
-                <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">Career journy</span>
+                <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">Career journey</span>
                 <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-secondary-foreground animate-fade-in animation-daley-100">
                    Experiences that <span className="font-serif italic font-normal text-white"> speaks volumes.</span>
                </h2>
-               <p className="text-muted-foreground animate-fade-in animation-daley-200"> A time line of my professional growth, from curious bignner up to now.</p>
+               <p className="text-muted-foreground animate-fade-in animation-daley-200"> A time line of my professional growth, from curious beginner up to now.</p>
             </div>
             {/*time line */}
             <div className="relative">

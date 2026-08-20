@@ -6,7 +6,7 @@ import project3 from '../assets/images/project3.png'
 const projects=[
     {
         title:"Javid store",
-        discribtion:"it is a project about a store it is so scalable and efactive for shoping",
+        discribtion:"it is a project about a store it is so scalable and effective for shopping",
         img:project1,
         tags:["Html","Css","js"],
         link:"https://github.com/Javid-Ansari-03",
@@ -43,7 +43,7 @@ export const Projects=()=>{
                 <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">Project that 
                     <span className="font-serif italic font-normal text-white"> make and impact.</span>
                 </h2>
-                <p className="text-muted-foreground animate-fade-in animation-delay-200">A selection of my recent work, from complex web aplications to innvative tools that solve real world problems.</p>
+                <p className="text-muted-foreground animate-fade-in animation-delay-200">A selection of my recent work, from complex web applications to inventive tools that solve real world problems.</p>
             </div>
             {/*project Grid */}
             <div className="grid md:grid-cols-2 gap-8">

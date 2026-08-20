@@ -9,11 +9,11 @@ const highlights=[
       {
         icon:Rocket,
         title:"Performance",
-        discribtion:"Optimizing for speet and delivering lighting-fast user experinces.",
+        discribtion:"Optimizing for speed and delivering lighting-fast user experiences.",
     },
       {
         icon:User,
-        title:"Collobrations",
+        title:"Collaborations",
         discribtion:"Working closely with team to bring ideas to live.",
     },
       {
@@ -43,7 +43,7 @@ export const About=()=>{
                            
                         </div>
                         <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
-                            <p className="text-lg font-medium italic text-foreground">My mission is to creat digital exprince that are just functional, but truly delightful-product that user love to use and developers love to maintin. </p>
+                            <p className="text-lg font-medium italic text-foreground">My mission is to create digital experience that are just functional, but truly delightful-product that user love to use and developers love to maintain. </p>
                         </div>
                     </div>
                     {/*right column-hilight */}
