@@ -43,7 +43,7 @@ export const Footer= ()=>{
                 </div>
                 <div className="flex flex-row justify-center items-center flex-wrap">
                     {socials.map((item,idx)=>(
-                        <div className="bg-primary/10 p-2 rounded-full m-2 text-primary">
+                        <div key={idx} className="bg-primary/10 p-2 rounded-full m-2 text-primary">
                             <a href={item.href}>{item.icon}</a>
                         </div>
                     ))}
