@@ -75,7 +75,7 @@ export const Hero=()=>{
                         <span>Fllow Me :</span>
                         <div className='flex gap-2.5 pt-5'>
                         {[{icon:FaGithub,href:"https://github.com/Javid-Ansari-03"},
-                         {icon:FaLinkedin ,href:"https://www.linkedin.com/safety/go/?url=http%3A%2F%2FJobportal%2Eaf&urlhash=L7w7&mt=JVQAe5cLSoA-HfGPgdiNcKe964d5zWUyaR8yXLWbc4MpuA0QNH1PTEm16O-uFd1Ws_Ei4xOccLSI63J7quoYqfQB4VoB&isSdui=true"},
+                         {icon:FaLinkedin ,href:"https://www.linkedin.com/in/m-javid-ansari"},
                         ].map((social,idx)=>(
                             
                             <a key={idx} href={social.href}>{<social.icon size={30}/>}</a>
