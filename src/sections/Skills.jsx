@@ -12,7 +12,7 @@ function Skills() {
                 </h2>
             </div>
 
-            <div className='group glass px-4 md:py-6 rounded-md glow-border mx-2.5 duration-300 animate-fade-in animation-delay-100'>
+            <div className='group glass px-4 md:py-6 rounded-md glow-border mx-2.5 duration-300 animate-fade-in animation-delay-100 py-2.5'>
                 <div className='flex justify-between flex-wrap'>
                 {
                     skills.map((skill,idx)=>(
