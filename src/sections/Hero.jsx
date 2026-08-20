@@ -39,7 +39,7 @@ export const Hero=()=>{
 
         </div>
         {/*Contant */}
-        <div className='container mx-auto px-6 py-32 pb-10 relative z-10'>
+        <div className='container mx-auto px-6 py-32 md:pb-10 pb-5 relative z-10'>
             <div className='grid lg:grid-cols-2 items-center gap-12'>
                 {/* left-contant */}
                 <div className='space-y-8'>
@@ -63,8 +63,8 @@ export const Hero=()=>{
                         </p>
                     </div>
                     {/*CTA s */}
-                    <div className='flex gap-4 animate-fade-in animation-delay-300'>
-                       <a href="#contact"> <Button size='lg'> Contact Me <ArrowRight className='w-5 h-5'/> </Button></a>
+                    <div className='flex md:gap-4 gap-0.5 animate-fade-in animation-delay-300 '>
+                       <a href="#contact"> <Button size='lg'>Contact Me <ArrowRight className='w-5 h-5'/> </Button></a>
                           <a href='/Javid_cv.png' download="M Javid Ansari Cv" className='animated-border py-3 px-6 rounded-full grup'>
                            <span className='relative z-10 flex items-center justify-center gap-2'><Download/> Download CV</span>
 

@@ -1,28 +1,29 @@
 import { ArrowRight, ArrowUpRight, Scale  } from 'lucide-react';
 import { FaGithub } from "react-icons/fa";
-import img1 from '../assets/images/project1.png';
-import img2 from '../assets/images/project2.png';
+import project1 from '../assets/images/project2.png';
+import project3 from '../assets/images/project3.png'
 
 const projects=[
     {
         title:"Javid store",
         discribtion:"it is a project about a store it is so scalable and efactive for shoping",
-        img:'/src/assets/images/project2.png',
+        img:project1,
         tags:["Html","Css","js"],
         link:"https://github.com/Javid-Ansari-03",
         github:"",
-    }, {
-        title:"Home_set",
-        discribtion:"it is a project for sale and renting homes in every part of Afghanistan",
-        img:'../src/assets/images/project1.png',
-        tags:["react","node.js","mysql"],
-        link:"https://github.com/Javid-Ansari-03",
-        github:"#",
-    }, {
+    },  {
         title:"Asra Book store",
         discribtion:"it is a management system for a book store, it so beneficial for managing the store",
-        img:'../src/assets/images/project1.png',
+        img:'../assets/images/project2.png',
         tags:["Html","tailwind Css","php","mysql "],
+        link:"https://github.com/Javid-Ansari-03",
+        github:"#",
+    },
+    {
+        title:"Home_set",
+        discribtion:"it is a project for sale and renting homes in every part of Afghanistan",
+        img:project3,
+        tags:["react","node.js","mysql"],
         link:"https://github.com/Javid-Ansari-03",
         github:"#",
     },
@@ -30,7 +31,7 @@ const projects=[
 ]
 export const Projects=()=>{
     return(
-    <section id="project" className="relative py-32 overflow-hidden">
+    <section id="project" className="relative md:py-32 py-5 overflow-hidden">
         {/*bg-glows */}
         <div className="absolute top-1/4 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl"/>
         <div className="absolute bootom-1/4 left-0 w-64 h-64 bg-highlight/5 rounded-full blur-3xl"/>

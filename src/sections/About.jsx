@@ -24,7 +24,7 @@ const highlights=[
 ]
 export const About=()=>{
     return(
-        <section id="about" className="relative py-32 overflow-hidden">
+        <section id="about" className="relative md:py-32 py-5 overflow-hidden">
             <div className="continer mx-auto px-6 relative z-10">
                 <div className="grid lg:grid-cols-2 gap-16 items-center">
                     {/*left colums */}

@@ -1,24 +1,27 @@
 import { ChevronLeft, ChevronRight, Quote } from "lucide-react"
-import { useState } from "react"
+import { useState } from "react";
+import aziz from '../assets/images/aziz.JPG';
+import milad from '../assets/images/milad.jpeg';
+import asghar from '../assets/images/asghar.jpg'
 
 const testimonils=[
     {
         quote:"M javid ansari is programmer and a good devloper at that much I know hem",
-        aouthor:"Alli",
+        aouthor:"Milad",
         roale:"PRT_TECh, manager",
-         avatar:'/src/assets/images/milad.jpeg',
+         avatar:milad,
     },
       {
         quote:"M javid Ansari is a good and same time serious manager since I work with him",
         aouthor:"Aziz",
         roale:"Growth_Today team, frontent developer",
-        avatar:'/src/assets/images/aziz.JPG',
+        avatar:aziz
     },
       {
         quote:"His work is always appreciated, and he work in team as good and kindly with others ",
         aouthor:"Azghar",
         roale:"front developer",
-         avatar:'/src/assets/images/javid1.png',
+         avatar:asghar,
     },
     
 ]
@@ -31,7 +34,7 @@ export const Testimonils=()=>{
         setActiveIdx((prev) => (prev-1 +testimonils.length) % testimonils.length)
     }
     return(
-        <section id="testimonils" className="py-32 overflow-hidden relative">
+        <section id="testimonils" className="md:py-32 py-5 overflow-hidden relative">
             <div className=" absolute top-1/2 left-1/2 w-220 h-220 bg-primary/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"/>
             <div className="continer mx-auto px-6 relative z-10">
                 {/*header section */}
