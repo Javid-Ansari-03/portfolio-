@@ -3,6 +3,7 @@ import { random } from 'mathjs'
 import bg1 from '../assets/images/bg-1.jpg'
 import { ArrowLeft, ArrowRight, ChevronDown, Code2, Download} from 'lucide-react';
 import img from '../assets/images/javid.png';
+import cv from '../assets/images/javid_cv.jpg'
 import { Button } from '../components/Button';
 import { FaGithub,FaFacebook,FaLinkedin,FaTwitter } from "react-icons/fa";
 const skills=[
@@ -65,7 +66,7 @@ export const Hero=()=>{
                     {/*CTA s */}
                     <div className='flex md:gap-4 gap-0.5 animate-fade-in animation-delay-300 '>
                        <a href="#contact"> <Button size='lg'>Contact Me <ArrowRight className='w-5 h-5'/> </Button></a>
-                          <a href='/Javid_cv.png' download="M Javid Ansari Cv" className='animated-border py-3 px-6 rounded-full grup'>
+                          <a href={cv} download="M Javid Ansari Cv" className='animated-border py-3 px-6 rounded-full grup'>
                            <span className='relative z-10 flex items-center justify-center gap-2'><Download/> Download CV</span>
 
                            </a>
