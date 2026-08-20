@@ -15,11 +15,11 @@ export const Footer= ()=>{
         },
         {
             icon:<FaFacebook/>,
-            href:"http:/www.facebook.com/M Javid Ansari"
+            href:"http:/www.facebook.com/share/1Jo15MbCCK/"
         },
         {
             icon:<FaLinkedin/>,
-            href:"https://www.linkedin.com/in/m-javid-ansari"
+            href:"https://www.linkedin.com/safety/go/?url=http%3A%2F%2FJobportal%2Eaf&urlhash=L7w7&mt=JVQAe5cLSoA-HfGPgdiNcKe964d5zWUyaR8yXLWbc4MpuA0QNH1PTEm16O-uFd1Ws_Ei4xOccLSI63J7quoYqfQB4VoB&isSdui=true"
         }
     ]
    const naveLinks=[
